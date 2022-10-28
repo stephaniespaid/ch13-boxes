@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+nav {
+    text-align: center;
+    margin-bottom: 75px;
+   font-size: 25px;
+}
+
+li {
+display: inline;
+margin: 10px;
+}
+
+li>a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400; 
+}
+p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none; font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration:none;
+}
+img {
+    height: 600px;
+    display: block;
+margin: auto;
+box-shadow: 5px 5px 5px 5px #777777;
+}
+
+.square {
+    display: block;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 60px;
+    margin: 20px;
+    background-color: rgb(213, 192, 222)
+    
+
+}
+.styletext {
+    font-size: 20px;
+}
+.styletext, .program {
+    font-family: 'roboto';
+    font-weight: 900;
+}
+.program {
+    display: block;
+    padding-right: 40px;
+}
+ul {list-style-type: none;
+
+}
+.aboutText {
+    background-color: rgb(216, 198, 232); color: rgb(0, 0, 0); text-shadow: 1px 1px 3px rgb(104, 104, 104);
+}
+a:link {
+    color: rgb(203, 78, 249);
+    text-decoration: none;
+    
+    }
+    a:visited {
+    color: rgb(212, 173, 235);
+    
+    }
+    a:hover {
+    color: rgb(255, 90, 20);
+    text-decoration: underline;
+    
+    }
+    a:active {
+    color: rgb(255, 217, 0);
+    
+    }
+    /****************** For Ipad********************************* */
+  @media screen and (min-width: 481px) and (max-width: 768px){
+    h1 {
+        font-size: 40px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+         }
+        img { height: 400px;
+
+         }
+         .square {
+            height: 350px;
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px 60px;
+            margin: 20px;
+            background-color: rgb(213, 192, 222)
+        }
+        .styletext {
+            font-size: 15px;
+        }
+
+  /******************************************* For mobile********************************* */
+  @media screen and (max-width: 480px){
+    h1 {
+        font-size: 25px;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    }
+    img {
+        height: 250px;
+    }
+    .square {
+        height: 275px;
+        width: 275px;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px 60px;
+        margin: 20px;
+        background-color: rgb(213, 192, 222)
+    }
+    .styletext {
+        font-size: 12px;
+  }
